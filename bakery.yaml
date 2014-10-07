@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [RopaSans-Italic.ttf.ttx, RopaSans-Regular.ttf.ttx, src/RopaSans-Italic.otf.ttx,
+  src/RopaSans-Regular.otf.ttx, src/RopaSans-Italic-TTF.sfd, src/RopaSans-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
